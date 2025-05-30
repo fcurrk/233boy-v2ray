@@ -38,7 +38,7 @@ is_old_list=(
 del_old_file() {
 	# old sh bin
 	_v2ray_sh="/usr/local/sbin/v2ray"
-	rm -rf $_v2ray_sh $is_old_conf $is_old_dir $is_core_dir/233blog_v2ray_config.json /usr/bin/v2ray
+	rm -rf $_v2ray_sh $is_old_conf $is_old_dir $is_core_dir/fcurrk_v2ray_config.json /usr/bin/v2ray
 	# del alias
 	sed -i "#$_v2ray_sh#d" /root/.bashrc
 	exit

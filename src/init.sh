@@ -1,7 +1,7 @@
 #!/bin/bash
 
-author=233boy
-# github=https://github.com/233boy/v2ray
+author=fcurrk
+# github=https://github.com/fcurrk/233boy-v2ray
 
 # bash fonts colors
 red='\e[31m'
@@ -144,8 +144,8 @@ fi
 
 load core.sh
 # old sh ver
-is_old_dir=/etc/v2ray/233boy
-is_old_conf=/etc/v2ray/233blog_v2ray_backup.conf
+is_old_dir=/etc/v2ray/fcurrk
+is_old_conf=/etc/v2ray/fcurrk_v2ray_backup.conf
 if [[ -f $is_old_conf && -d $is_old_dir ]]; then
     load old.sh
 fi
